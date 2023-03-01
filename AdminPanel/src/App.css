@@ -1,0 +1,14 @@
+body {
+  overflow-x: hidden;
+}
+.careerborder {
+  border-top: 5px solid #1976d2;
+}
+.sidelink:hover {
+  background-color: #1976d2;
+  color: white;
+  cursor: pointer;
+}
+.navclass {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

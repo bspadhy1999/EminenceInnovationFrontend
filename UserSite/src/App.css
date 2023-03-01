@@ -1,0 +1,180 @@
+.contact:hover {
+  background-color: black;
+  color: white;
+}
+.support {
+  border-top-left-radius: 40%;
+  border-bottom-right-radius: 20%;
+  border-top-right-radius: 1%;
+}
+a {
+  text-decoration: none;
+}
+.zoom {
+  transition: transform 0.5s;
+}
+.zoom:hover {
+  transform: scale(1.2);
+}
+.zoomBox:hover {
+  background-color: #1976d2;
+  color: white;
+}
+.careerbox {
+  position: relative;
+  box-shadow: 10px 10px rgba(128, 128, 128, 0.759);
+}
+.careerimg {
+  position: absolute;
+  top: -100px;
+  left: 20px;
+}
+.careerbanner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://res.cloudinary.com/dtktcxctb/image/upload/v1675769606/Blog/header-2_rlpufo.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+}
+.careerborder {
+  border-top: 5px solid #1976d2;
+}
+.eilist {
+  margin-left: 2rem;
+}
+.eilist:hover {
+  border-bottom: 5px solid #1976d2;
+}
+.servicelefttab {
+  color: black;
+}
+.servicelefttab:hover {
+  background-color: #1976d2;
+  color: white;
+}
+.socialicondiv {
+  position: fixed;
+  left: 20px;
+  top: 250px;
+}
+.socialicon {
+  border: 3px solid rgba(128, 128, 128, 0.648);
+  border-radius: 50%;
+  margin: 10px;
+}
+.socialicon a {
+  color: rgba(128, 128, 128, 0.648) !important;
+}
+.socialicon a :hover {
+  color: whitesmoke;
+}
+.socialicon:hover {
+  background-color: rgba(128, 128, 128, 0.648);
+  color: aliceblue;
+}
+.aboutCount1 {
+  background: url(https://res.cloudinary.com/dtktcxctb/image/upload/v1675834931/timetable_iaz1rn.svg);
+  background-size: 100px 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.aboutCount2 {
+  background-image: url(https://res.cloudinary.com/dtktcxctb/image/upload/v1675834932/contract_udpivx.svg);
+  background-size: 100px 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.aboutCount3 {
+  background-image: url(https://res.cloudinary.com/dtktcxctb/image/upload/v1675834932/trophy_kbtlxo.svg);
+  background-size: 100px 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.aboutCount4 {
+  background-image: url(https://res.cloudinary.com/dtktcxctb/image/upload/v1675834931/happiness_mgcuc2.svg);
+  background-size: 100px 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.aboutImage {
+  position: relative;
+}
+.aboutImage2 {
+  position: absolute;
+  left: -30px;
+  top: -50px;
+  z-index: -1;
+}
+.aboutImage3 {
+  position: absolute;
+  bottom: 10px;
+  right: 80px;
+  z-index: -1;
+}
+.aboutImage4 {
+  position: absolute;
+  bottom: 40px;
+  left: -30px;
+}
+.aboutImage5 {
+  position: absolute;
+  top: 180px;
+  left: 220px;
+  z-index: 1;
+  color: #1976d2;
+  background-color: aliceblue;
+  border-radius: 50%;
+  font-size: 60px !important;
+}
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #1976d2;
+  border-radius: 10px;
+}
+.servicehoverdiv {
+  position: relative;
+}
+.info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 70%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  background-color: rgba(100, 148, 237, 0.135);
+}
+.servicehoverdiv:hover .info {
+  opacity: 1;
+}
+.servicehoverdiv:hover .img {
+  opacity: 0;
+}
+.react-tabs__tab--selected {
+  color: #1976d2;
+  outline: none;
+}
+.react-tabs__tab {
+  height: 50px;
+  padding: 12px 6px;
+  cursor: pointer;
+  list-style: none;
+}
+.fotterlink{
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+.fotterlink::before{
+  -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.fotterlink:hover{
+  margin-left: .625rem;
+}
+
+
