@@ -9,7 +9,7 @@ export default function Contact() {
     const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm('service_qnt2w6p', 'template_47tpz0b', form.current, 'plWQEI26xHADzmoyl')
+        emailjs.sendForm('', '', form.current, '')
           .then((result) => {
               console.log(result.text);
               swal("Your Message has been sent!", "Our team will contact you shortly.", "success");
